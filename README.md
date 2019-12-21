@@ -38,7 +38,9 @@ We have classified all instructions into a handfful of types, mainly 'A' (Arithm
 <p>
   Structural features are slightly more elaborate. It is an array of 5 values, the first is the number of basic blocks, the second is the number of edges, the third is the list of ids corresponding to each basic blocks, the fourth is the list of edges between the basic blocks and the last is the array of attributes. Each attribute is an array of instructions in IR corresponding to each basic block.
 </p>
+
 ### How are these dataset generated?
+
 <p>
   Dockcross is an open-source platform which can be used to perform cross-compilation. It supports a range of architectures including x86, x64, MIPS, arm etc.
 </p>
