@@ -3,7 +3,7 @@ This repository will house datasets for cross compilation function variants.
 ## Usage
   1. Unzip the dataset file to json format.
   2. The format can be realized by trying the following snippet in python.
-```
+```python
 >>> import json
 >>> a = json.load(open("dataset_cross.json",'r'))
 >>> print(a.keys())
@@ -22,7 +22,7 @@ They can be visualized to be the 7 rows. Each key is mapped to an array.
 | 'struct_features' |[1, 0, [134217792], [], [[3, 0,..., 0, 0]], [['A', 'T',..., 'T', 'A']]] | | 
 
 To access attributes of i<sup>th</sup> function, query the following:
-```
+```python
 >>> print(a['function_name'][i])
 ```
 ### What are numeric and structural features?
