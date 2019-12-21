@@ -1,4 +1,4 @@
-# cross-compilation-dataset
+# Cross-Compilation-Dataset
 This repository will house datasets for cross compilation function variants. 
 ## Usage
   1. Unzip the dataset file to json format.
