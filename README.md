@@ -45,5 +45,5 @@ We have classified all instructions into a handfful of types, mainly 'A' (Arithm
   Dockcross is an open-source platform which can be used to perform cross-compilation. It supports a range of architectures including x86, x64, MIPS, arm etc. Popular open-source libraries like openssl, fontforge etc are used for generating functions.
 </p>
 
-### Special credits
-Shivam Kumar
+### MIT License
+Copyright (c) 2019 Abhyuday Pandey, Shivam Kumar
